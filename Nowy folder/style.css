@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+
+}
+
+body {
+    background-color: bisque;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+
+  }
+h1 {
+    color: blue;
+    background-color: rgb(179, 179, 179);
+    padding:10px;
+    margin:0px;
+    border-width: 0px;
+    border-bottom-width: 5px;
+    border-style: solid;
+    border-color: black;
+    height:20%
+
+  }
+.text {
+  height: 600px;
+  overflow:scroll;
+  float:left;
+  width:70%;
+  background-color: bisque;
+  padding: 10px;
+  margin:0px;
+}
+.side {
+  float:right;
+  height: 600px;
+  overflow:scroll;
+  width:30%;
+  background-color: rgb(28, 28, 28);
+  color:antiquewhite;
+  padding: 10px;
+  margin:0px;
+}
+.foot {
+  color: antiquewhite;
+  background-color: rgb(36, 36, 36);
+  height:140px;
+  padding:10px;
+  margin:0px;
+  border-width: 0px;
+  border-top-width: 5px;
+  border-style: solid;
+  border-color: black;
+  overflow:hidden;
+}
+@media screen and (max-width: 1000px) {
+  .text, .side {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    overflow:auto;
+    min-height: 500px;
+  }
+}
