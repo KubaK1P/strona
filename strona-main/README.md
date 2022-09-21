@@ -1,2 +1,0 @@
-# strona
-projekt na lekcję
