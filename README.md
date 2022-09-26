@@ -1,6 +1,6 @@
 # strona
 projekt na lekcję
-CZY KTOŚ JESZCZE NAD TYM PRACUJE?
-oprócz mnie oczywiście
+
+Dobra a Jeremiasz?
 
 tak jest panie komorniku
