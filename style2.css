@@ -15,6 +15,9 @@ li {list-style: none;}
 a {text-decoration: none;}
   
 
+. advertisement {
+  margin:auto;
+}
 .a{
   min-height:max-content;
   overflow:visible;
