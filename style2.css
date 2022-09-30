@@ -83,14 +83,15 @@ a {text-decoration: none;}
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .side {
-    flex: 20%;
+    flex-grow:1;
     background-color: #f1f1f1;
     padding: 20px;
+    max-width:500px;
 }
 
 /* Main column */
 .main {
-    flex: 80%;
+    flex-grow:2;
     background-color: white;
     padding: 20px;
     border:none;
